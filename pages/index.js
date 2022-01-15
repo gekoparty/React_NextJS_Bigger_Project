@@ -7,7 +7,7 @@ const Homepage = (props) => {
   return (
     <Fragment>
       <Head>
-        <title>React Meetup</title>
+        <title>React_Meetup</title>
         <meta name="description" content="Browse a huge list of react meetups"></meta>
       </Head>
       <MeetupList meetups={props.meetups}></MeetupList>
